@@ -16,8 +16,6 @@ Your object should have a function named 'greet' that takes a name as a paramete
 
 You should have at least one test that verifies the output of the function.  
 
-Your code should pass the **.eslintrc** included in this repository.  
-
 Your submission should be a link to your pull request.  
 
 ##Bonus:
