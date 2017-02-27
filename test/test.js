@@ -4,7 +4,7 @@ const greet = require('../lib/greet.js');
 const expect = require('chai').expect;
 
 describe('Great module', function() {
-  describe('#sayHey', function() {
+  describe('#sayHey', function(sayHey) {
     it('should return hey sugey!', function() {
       var result = greet.sayHey('sugey');
       expect(greet).to.have.property('sayHey');

@@ -1,6 +1,6 @@
 'use strict'
 
-const greet = ('./lib/greet.js');
+const greet = require('../lib/greet.js');
 
-greet.sayHi('sugey')
-greet.sayBye();
+greet.sayHey('');
+greet.sayBye('');
