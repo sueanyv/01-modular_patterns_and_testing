@@ -5,15 +5,15 @@ const expect = require('chai').expect;
 
 describe('Great module', function() {
   describe('#sayHey', function(sayHey) {
-    it('should return hey john!', function() {
-      var result = greet.sayHey('john');
+    it('should return hey sugey!', function() {
+      var result = greet.sayHey('sugey');
       expect(greet).to.have.property('sayHey');
-      expect(greet).sayHey.to.equal('sayHey');
+      expect(result).to.equal('hey sugey!');
 
     });
     it('should throw a missing name error', function() {
       var result = greet.sayHey;
-      expect(result).to.throw(Error);
+      expect(result).to.throw('name not provided');
     });
   });
 
