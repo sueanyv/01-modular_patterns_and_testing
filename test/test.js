@@ -21,6 +21,7 @@ describe('Great module', function() {
     it('should return see ya later sugey!', function() {
       var result = greet.sayBye('sugey');
       expect(greet).to.have.property('sayBye');
+      expect(result).to.equal('see ya later sugey!');
     });
   });
 });
